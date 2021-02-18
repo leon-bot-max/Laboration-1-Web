@@ -24,11 +24,11 @@ function areaCalculations(){
 
 
 	//Arean av en triangel.
-	area = length * width / 2
+	area = length * width / 2;
 	resultElem.innerHTML += "<p>Triangelns area: " + area + " m<sup>2</sup></p>";
 
 	//Rektangelns area om längden skulle vara 5 meter längre än vad som anges i textfältet.
-	area = (length + 5) * width
+	area = (length + 5) * width;
 	resultElem.innerHTML += "<p>Rektangelns area om längd ökar med 5 meter: " + area + " m<sup>2</sup></p>";
 
 	//Ellipsens area om längden skulle ökas med 50%.
