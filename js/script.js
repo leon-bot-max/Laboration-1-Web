@@ -36,7 +36,7 @@ function areaCalculations(){
 	resultElem.innerHTML += "<p>Ellipsens area om längd ökar 50%: " + area + " m<sup>2</sup></p>";
 
 	//Triangelns area angivet i kvadratfot istället för kvadratmeter. (1 meter = 3.28 fot)
-	area = (length * 3.28) * (width * 3.28) / 2
+	area = (length * 3.28) * (width * 3.28) / 2;
 	resultElem.innerHTML += "<p>Triangelns area i fot: " + area + " ft<sup>2</sup></p>";
 
 
